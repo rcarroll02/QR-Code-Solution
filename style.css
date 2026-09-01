@@ -13,7 +13,6 @@ html {
 
 #qr__code {
   max-width: 1440px;
-
 }
 
 body {
@@ -60,7 +59,12 @@ p {
 
 .qr__para {
   margin-top: 1rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   max-width: 260px;
 }
 
+@media (max-width: 375px) {
+  html {
+    scale: calc(70%);
+  }
+}
