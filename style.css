@@ -7,6 +7,14 @@
 - Slate 900: hsl(218, 44%, 22%)
 
 https://fonts.google.com/specimen/Outfit*/
+html {
+  scale:calc(85%);
+}
+
+#qr__code {
+  max-width: 1440px;
+
+}
 
 body {
   padding: 0;
@@ -16,7 +24,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  max-width: 1440px;
 }
 
 h1 {
@@ -53,6 +60,7 @@ p {
 
 .qr__para {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   max-width: 260px;
 }
+
